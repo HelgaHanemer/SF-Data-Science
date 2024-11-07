@@ -19,7 +19,7 @@ def random_predict(number:int=1) -> int:
                 break # выход из цикла, если угадали
         return(count)
     
-print(f'Количество попыток: {random_predict()}')
+print(f'Количество попыток : {random_predict()}')
 
 def score_game(random_predict) -> int:
         """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
