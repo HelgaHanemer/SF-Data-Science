@@ -1,4 +1,3 @@
-# ==== Data & artifacts (no VCS) ====
 *.joblib
 *.pt
 *.h5
@@ -11,6 +10,4 @@ data/**
 checkpoints/**
 DL_project/checkpoints/**
 DL_project/train.csv
-
-# Jupyter temp
 .ipynb_checkpoints/
